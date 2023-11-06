@@ -1,0 +1,342 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../dist/output.css" rel="stylesheet">
+  <title>Audio Supply</title>
+</head>
+<body>
+    <header>
+      <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+          <div class="flex justify-between">
+            <div class="flex space-x-7">
+              <div>
+                <!-- Website Logo -->
+                <a href="#" class="flex items-center py-4 px-2">
+                  <img src="../imgs/Logo.jpg" alt="Logo" class="h-32 mr-2">
+                </a>
+              </div>
+              <!-- Primary Navbar items -->
+              <div class="hidden md:flex items-center space-x-8">
+                <a href="#About" class="py-4 px-2 text-emerald-700 border-b-4 border-emerald-700 font-semibold ">About</a>
+                <a href="#Products" class="py-4 px-2 text-gray-500 font-semibold hover:text-emerald-700 transition duration-300">Products</a>
+                <a href="#Contact" class="py-4 px-2 text-gray-500 font-semibold hover:text-emerald-700 transition duration-300">Contact</a>
+              </div>
+            </div>
+            <!-- Mobile menu button -->
+            <div class="md:hidden flex items-center">
+              <button class="outline-none mobile-menu-button">
+              <svg class=" w-6 h-6 text-gray-500 hover:text-emerald-700 "
+                x-show="!showMenu"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+            </button>
+            </div>
+          </div>
+        </div>
+        <!-- mobile menu -->
+        <div class="hidden mobile-menu">
+          <ul class="space-y-4 px-2">
+            <li class="active"><a href="#About" class="block text-sm px-2 py-4 text-white bg-emerald-700 font-semibold">About</a></li>
+            <li><a href="#Products" class="block text-sm px-2 py-4 hover:bg-emerald-700 transition duration-300">Products</a></li>
+            <li><a href="#Contact" class="block text-sm px-2 py-4 hover:bg-emerald-700 transition duration-300">Contact</a></li>
+          </ul>
+        </div>
+        <script>
+          const btn = document.querySelector("button.mobile-menu-button");
+          const menu = document.querySelector(".mobile-menu");
+  
+          btn.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+          });
+        </script>
+    </header>
+
+    <h1 class="text-3xl font-bold m-4 pt-12 pb-0 mb-0" id="About">
+        About Audio Supply
+    </h1>
+    <p class="m-12 text-lg text-black">
+      In the ever-evolving world of technology and consumer electronics, audio equipment has become an integral part of our daily lives. Whether it's for leisurely music listening, professional sound production, or immersive gaming experiences, the demand for high-quality audio products has skyrocketed. In this landscape, audio resellers play a vital role in ensuring that consumers have access to a wide range of audio equipment, and Audio Supply stands out as a prime example of a trusted audio reseller.
+      Audio Supply is a company dedicated to providing customers with an extensive selection of audio products and services. This reseller specializes in offering a diverse range of audio equipment, from headphones and speakers to amplifiers and studio recording gear. To fully appreciate the significance of Audio Supply as an audio reseller, it's important to delve into their history, business model, product offerings, and the impact they have on the audio industry.
+    </p>
+
+    <h1 class="text-3xl font-bold m-4 pt-12 pb-0 mb-0" id="Products">
+        Products
+    </h1>
+    <div class="grid lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 gap-4 pb-16 buttons-container">
+
+      <div class="py-8 px-8 bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 m-4">
+          <img class="block mx-auto h-24 sm:mx-0 sm:shrink-0" src="../imgs/1.jpg" />
+          <div class="text-center space-y-2 sm:text-left">
+            <div class="space-y-0.5">
+              <p class="text-lg text-black font-semibold">
+                SOLOTECH RGB Chameleon Starcloth 30’H X 15’L
+              </p>
+              <p class="text-slate-500 font-medium">
+                $1,650.00
+              </p>
+              <div class="px-4 py-1 text-sm whitespace-nowrap max-w-min text-green-600 font-semibold rounded-full border border-green-200 hover:text-white hover:bg-green-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 add-to-cart-button">Add To Cart</div>
+            </div>
+          </div>
+      </div>
+
+      <div class="py-8 px-8 bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 m-4">
+          <img class="block mx-auto h-24 sm:mx-0 sm:shrink-0" src="../imgs/2.jpg" />
+          <div class="text-center space-y-2 sm:text-left">
+            <div class="space-y-0.5">
+              <p class="text-lg text-black font-semibold">
+                GLP Impression FR1
+              </p>
+              <p class="text-slate-500 font-medium">
+                $995
+              </p>
+                            <div class="px-4 py-1 text-sm whitespace-nowrap max-w-min text-green-600 font-semibold rounded-full border border-green-200 hover:text-white hover:bg-green-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 add-to-cart-button">Add To Cart</div>
+            </div>
+          </div>
+      </div>
+
+      <div class="py-8 px-8 bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 m-4">
+        <img class="block mx-auto h-24 sm:mx-0 sm:shrink-0" src="../imgs/3.jpg" />
+        <div class="text-center space-y-2 sm:text-left">
+          <div class="space-y-0.5">
+            <p class="text-lg text-black font-semibold">
+              Robe Robin BMFL Spot
+            </p>
+            <p class="text-slate-500 font-medium">
+              $2,595.00
+            </p>
+            <div class="px-4 py-1 text-sm whitespace-nowrap max-w-min text-green-600 font-semibold rounded-full border border-green-200 hover:text-white hover:bg-green-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 add-to-cart-button">Add To Cart</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="py-8 px-8 bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 m-4">
+        <img class="block mx-auto h-24 sm:mx-0 sm:shrink-0" src="../imgs/4.jpg" />
+        <div class="text-center space-y-2 sm:text-left">
+          <div class="space-y-0.5">
+            <p class="text-lg text-black font-semibold">
+              Analog Way DVX8022 DiVentix Digital Hi-Res Switch
+            </p>
+            <p class="text-slate-500 font-medium">
+              $750.00
+            </p>
+            <div class="px-4 py-1 text-sm whitespace-nowrap max-w-min text-green-600 font-semibold rounded-full border border-green-200 hover:text-white hover:bg-green-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 add-to-cart-button">Add To Cart</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="py-8 px-8 bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 m-4">
+        <img class="block mx-auto h-24 sm:mx-0 sm:shrink-0" src="../imgs/5.jpg" />
+        <div class="text-center space-y-2 sm:text-left">
+          <div class="space-y-0.5">
+            <p class="text-lg text-black font-semibold">
+              City Theatrical Receiver SHoW DMX #5610
+            </p>
+            <p class="text-slate-500 font-medium">
+              $220.00
+            </p>
+            <div class="px-4 py-1 text-sm whitespace-nowrap max-w-min text-green-600 font-semibold rounded-full border border-green-200 hover:text-white hover:bg-green-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 add-to-cart-button">Add To Cart</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="py-8 px-8 bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 m-4">
+        <img class="block mx-auto h-24 sm:mx-0 sm:shrink-0" src="../imgs/1.jpg" />
+        <div class="text-center space-y-2 sm:text-left">
+          <div class="space-y-0.5">
+            <p class="text-lg text-black font-semibold">
+              SOLOTECH RGB Chameleon Starcloth 30’H X 15’L
+            </p>
+            <p class="text-slate-500 font-medium">
+              $1,650.00
+            </p>
+            <div class="px-4 py-1 text-sm whitespace-nowrap max-w-min text-green-600 font-semibold rounded-full border border-green-200 hover:text-white hover:bg-green-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 add-to-cart-button">Add To Cart</div>
+          </div>
+        </div>
+    </div>
+
+    <div class="py-8 px-8 bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 m-4">
+        <img class="block mx-auto h-24 sm:mx-0 sm:shrink-0" src="../imgs/2.jpg" />
+        <div class="text-center space-y-2 sm:text-left">
+          <div class="space-y-0.5">
+            <p class="text-lg text-black font-semibold">
+              GLP Impression FR1
+            </p>
+            <p class="text-slate-500 font-medium">
+              $995
+            </p>
+            <div class="px-4 py-1 text-sm whitespace-nowrap max-w-min text-green-600 font-semibold rounded-full border border-green-200 hover:text-white hover:bg-green-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 add-to-cart-button">Add To Cart</div>
+          </div>
+        </div>
+    </div>
+
+    <div class="py-8 px-8 bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 m-4">
+      <img class="block mx-auto h-24 sm:mx-0 sm:shrink-0" src="../imgs/3.jpg" />
+      <div class="text-center space-y-2 sm:text-left">
+        <div class="space-y-0.5">
+          <p class="text-lg text-black font-semibold">
+            Robe Robin BMFL Spot
+          </p>
+          <p class="text-slate-500 font-medium">
+            $2,595.00
+          </p>
+          <div class="px-4 py-1 text-sm whitespace-nowrap max-w-min text-green-600 font-semibold rounded-full border border-green-200 hover:text-white hover:bg-green-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 add-to-cart-button">Add To Cart</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="py-8 px-8 bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 m-4">
+      <img class="block mx-auto h-24 sm:mx-0 sm:shrink-0" src="../imgs/4.jpg" />
+      <div class="text-center space-y-2 sm:text-left">
+        <div class="space-y-0.5">
+          <p class="text-lg text-black font-semibold">
+            Analog Way DVX8022 DiVentix Digital Hi-Res Switch
+          </p>
+          <p class="text-slate-500 font-medium">
+            $750.00
+          </p>
+          <div class="px-4 py-1 text-sm whitespace-nowrap max-w-min text-green-600 font-semibold rounded-full border border-green-200 hover:text-white hover:bg-green-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 add-to-cart-button">Add To Cart</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="py-8 px-8 bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 m-4">
+      <img class="block mx-auto h-24 sm:mx-0 sm:shrink-0" src="../imgs/5.jpg" />
+      <div class="text-center space-y-2 sm:text-left">
+        <div class="space-y-0.5">
+          <p class="text-lg text-black font-semibold">
+            City Theatrical Receiver SHoW DMX #5610
+          </p>
+          <p class="text-slate-500 font-medium">
+            $220.00
+          </p>
+          <div class="px-4 py-1 text-sm whitespace-nowrap max-w-min text-green-600 font-semibold rounded-full border border-green-200 hover:text-white hover:bg-green-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 add-to-cart-button">Add To Cart</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="py-8 px-8 bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 m-4">
+      <img class="block mx-auto h-24 sm:mx-0 sm:shrink-0" src="../imgs/1.jpg" />
+      <div class="text-center space-y-2 sm:text-left">
+        <div class="space-y-0.5">
+          <p class="text-lg text-black font-semibold">
+            SOLOTECH RGB Chameleon Starcloth 30’H X 15’L
+          </p>
+          <p class="text-slate-500 font-medium">
+            $1,650.00
+          </p>
+          <div class="px-4 py-1 text-sm whitespace-nowrap max-w-min text-green-600 font-semibold rounded-full border border-green-200 hover:text-white hover:bg-green-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 add-to-cart-button">Add To Cart</div>
+        </div>
+      </div>
+  </div>
+
+  <div class="py-8 px-8 bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 m-4">
+      <img class="block mx-auto h-24 sm:mx-0 sm:shrink-0" src="../imgs/2.jpg" />
+      <div class="text-center space-y-2 sm:text-left">
+        <div class="space-y-0.5">
+          <p class="text-lg text-black font-semibold">
+            GLP Impression FR1
+          </p>
+          <p class="text-slate-500 font-medium">
+            $995
+          </p>
+          <div class="px-4 py-1 text-sm whitespace-nowrap max-w-min text-green-600 font-semibold rounded-full border border-green-200 hover:text-white hover:bg-green-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 add-to-cart-button">Add To Cart</div>
+        </div>
+      </div>
+  </div>
+
+  <div class="py-8 px-8 bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 m-4">
+    <img class="block mx-auto h-24 sm:mx-0 sm:shrink-0" src="../imgs/3.jpg" />
+    <div class="text-center space-y-2 sm:text-left">
+      <div class="space-y-0.5">
+        <p class="text-lg text-black font-semibold">
+          Robe Robin BMFL Spot
+        </p>
+        <p class="text-slate-500 font-medium">
+          $2,595.00
+        </p>
+        <div class="px-4 py-1 text-sm whitespace-nowrap max-w-min text-green-600 font-semibold rounded-full border border-green-200 hover:text-white hover:bg-green-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 add-to-cart-button">Add To Cart</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="py-8 px-8 bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 m-4">
+    <img class="block mx-auto h-24 sm:mx-0 sm:shrink-0" src="../imgs/4.jpg" />
+    <div class="text-center space-y-2 sm:text-left">
+      <div class="space-y-0.5">
+        <p class="text-lg text-black font-semibold">
+          Analog Way DVX8022 DiVentix Digital Hi-Res Switch
+        </p>
+        <p class="text-slate-500 font-medium">
+          $750.00
+        </p>
+        <div class="px-4 py-1 text-sm whitespace-nowrap max-w-min text-green-600 font-semibold rounded-full border border-green-200 hover:text-white hover:bg-green-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 add-to-cart-button">Add To Cart</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="py-8 px-8 bg-white rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 m-4">
+    <img class="block mx-auto h-24 sm:mx-0 sm:shrink-0" src="../imgs/5.jpg" />
+    <div class="text-center space-y-2 sm:text-left">
+      <div class="space-y-0.5">
+        <p class="text-lg text-black font-semibold">
+          City Theatrical Receiver SHoW DMX #5610
+        </p>
+        <p class="text-slate-500 font-medium">
+          $220.00
+        </p>
+          <div class="px-4 py-1 text-sm whitespace-nowrap max-w-min text-green-600 font-semibold rounded-full border border-green-200 hover:text-white hover:bg-green-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 add-to-cart-button">Add To Cart</div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="bg-gray-100 p-8" id="Contact">
+    <h1 class="text-3xl font-bold m-4 pb-0 mb-0">
+      Contact Us
+    </h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+      <div>
+        <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+        <input type="text" id="name" name="name" class="mt-1 p-2 w-full border rounded-md">
+      </div>
+      <div>
+        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+        <input type="email" id="email" name="email" class="mt-1 p-2 w-full border rounded-md">
+      </div>
+    </div>
+    <div class="mt-6">
+      <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+      <textarea id="message" name="message" rows="4" class="mt-1 p-2 w-full border rounded-md"></textarea>
+    </div>
+    <div class="mt-6">
+      <button type="submit" class="px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700" id="send-message">Send Message</button>
+    </div>
+  </div>
+  <script>
+    /// Button updates
+
+    // Add to cart
+    const addToCartButtons = document.querySelectorAll(".add-to-cart-button");
+    addToCartButtons.forEach(button => {
+      button.addEventListener("click", function() {
+        button.textContent = "In Cart";
+      });
+    });
+
+    // Message
+    const sendMessageButton = document.getElementById("send-message");
+    sendMessageButton.addEventListener("click", function() {
+      sendMessageButton.textContent = "Message Sent";
+    });
+    </script>
+</body>
+</html>
